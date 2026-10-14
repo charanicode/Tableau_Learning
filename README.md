@@ -40,6 +40,49 @@ Gained practical experience in data connection, worksheet creation, and dashboar
 - Explore advanced charts and data analysis.
 - Build more real-world Tableau projects.
 
+- ## 📅 Day 3: Tableau Fundamentals — Calculated Fields, LOD Expressions, Relationships & Joins
+
+### 📚 Topics Learned
+
+#### 1. Calculated Fields
+- Learned how to create calculated fields using existing data.
+- Understood row-level calculations, aggregate calculations, and table calculations.
+- Compared Tableau calculated fields with Power BI calculated columns and measures.
+
+#### 2. Level of Detail (LOD) Expressions
+- Learned the purpose of Level of Detail expressions in Tableau.
+- Explored the three types of LOD expressions:
+  - **FIXED:** Calculates values at a specified level of detail.
+  - **INCLUDE:** Adds dimensions to the calculation level.
+  - **EXCLUDE:** Removes dimensions from the calculation level.
+- Understood how LOD expressions can solve some analytical problems similar to DAX filter-context calculations.
+
+#### 3. Relationships and Joins
+- Learned the difference between logical relationships and physical joins in Tableau.
+- Reviewed common join types: Inner, Left, Right, and Full Outer Join.
+- Compared Tableau relationships with Power BI model relationships.
+- Compared Tableau joins with Power Query Merge Queries.
+
+### 🔄 Power BI vs Tableau
+| Power BI | Tableau |
+|---|---|
+| Calculated Columns / Measures | Calculated Fields |
+| DAX filter-context techniques | LOD expressions for selected use cases |
+| Model View Relationships | Logical Relationships |
+| Power Query Merge Queries | Physical Joins |
+
+*Note: These concepts can serve similar purposes, but their behavior and calculation logic are not always identical.*
+
+### 🎯 Learning Outcome
+Developed a foundational understanding of Tableau calculations, LOD expressions, and data modeling concepts by comparing them with familiar Power BI features.
+
+### 🛠️ Tools Used
+- Tableau
+- Microsoft Power BI
+- Power Query
+- DAX
+
+
 ---
 
 **#Tableau #DataVisualization #Dashboard #LearningJourney #DataAnalytics**
