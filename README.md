@@ -76,7 +76,7 @@ Developed a foundational understanding of Tableau terminology by comparing it wi
 - Microsoft Power BI
 - Tableau Learning Documentation
 
-### Day 4 – Tableau Worksheet Development
+## Day 4 – Tableau Worksheet Development
 
 - Continued practicing data visualization in Tableau.
 - Created worksheets to explore and analyze the dataset.
@@ -85,7 +85,7 @@ Developed a foundational understanding of Tableau terminology by comparing it wi
 
 **Status:** Worksheet development completed; dashboard development in progress.
 
-### Day 5 – KPI Cards and Dashboard Development
+## Day 5 – KPI Cards and Dashboard Development
 
 - Created multiple worksheets in Tableau.
 - Worked on KPI cards to display key metrics.
