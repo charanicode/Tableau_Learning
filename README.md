@@ -94,5 +94,21 @@ Developed a foundational understanding of Tableau terminology by comparing it wi
 
 **Status:** Dashboard development in progress.
 ---
+## Day 6 – Tableau Filter Options
 
+- **Topic:** Adding Filter Options to a Tableau Dashboard
+- **Tool Used:** Tableau
+- **Dataset:** Hyderabad Food Orders Dataset
+
+**Work Completed:**
+- Created filter options for Cuisine, Food Type, and Locality.
+- Enabled interactive filtering to explore food order data based on selected categories and locations.
+- Worked with multiple worksheets covering sales, total orders, quantity, discounts, delivery status, and top cuisines.
+- Improved dashboard interactivity and data exploration.
+
+**Skills Learned:** Tableau Filters, Interactive Dashboards, Data Visualization, Data Analysis
+
+**File:** `Day6-filteroptions_tableau.twb`
+
+This is part of my daily Tableau learning journey, focused on building an interactive food orders dashboard step by step.
 **#Tableau #DataVisualization #Dashboard #LearningJourney #DataAnalytics**
