@@ -93,7 +93,7 @@ Developed a foundational understanding of Tableau terminology by comparing it wi
 - Started combining individual worksheets into a dashboard.
 
 **Status:** Dashboard development in progress.
----
+
 ## Day 6 – Tableau Filter Options
 
 - **Topic:** Adding Filter Options to a Tableau Dashboard
