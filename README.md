@@ -109,6 +109,26 @@ Developed a foundational understanding of Tableau terminology by comparing it wi
 **Skills Learned:** Tableau Filters, Interactive Dashboards, Data Visualization, Data Analysis
 
 **File:** `Day6-filteroptions_tableau.twb`
+## 📅 Day 7 – Tableau Prep Installation and Troubleshooting
+
+### Activities Completed
+
+- Installed Tableau Prep.
+- Troubleshot and resolved the installation issue.
+- Prepared the environment to begin learning data preparation and transformation.
+
+### Learning Outcome
+
+Successfully resolved the installation issue and prepared Tableau Prep for hands-on practice.
+
+### Next Steps
+
+- Explore the Tableau Prep interface.
+- Connect a sample dataset.
+- Practice cleaning and transforming data.
+
+**Skills:** Tableau Prep, Troubleshooting, Data Preparation
+
 
 This is part of my daily Tableau learning journey, focused on building an interactive food orders dashboard step by step.
 **#Tableau #DataVisualization #Dashboard #LearningJourney #DataAnalytics**
