@@ -129,6 +129,43 @@ Successfully resolved the installation issue and prepared Tableau Prep for hands
 
 **Skills:** Tableau Prep, Troubleshooting, Data Preparation
 
+## 📅 Day 8 – Data Cleaning, Joins & Unions Using Tableau Prep
 
+### Activities Completed
+- Renamed fields and changed data types.
+- Filtered unwanted rows.
+- Combined datasets using joins and unions.
+- Created a data preparation workflow in Tableau Prep Builder.
+
+### Tools Used
+- Tableau Prep Builder
+- GitHub
+
+### Learning Outcome
+Gained hands-on experience in data cleaning, transformation, and combining datasets using Tableau Prep Builder.
+
+**Skills:** Tableau Prep, Data Cleaning, Data Transformation, Joins, Unions
+
+
+
+## 📅 Day 9 – Employee Attrition Dashboard
+
+### Activities Completed
+- Created KPI cards to display key metrics.
+- Analyzed attrition by age and department.
+- Visualized attrition count by gender.
+- Explored the relationship between overtime and attrition.
+- Designed an Employee Attrition Dashboard using Tableau.
+
+### Tools Used
+- Tableau
+- GitHub
+
+### Learning Outcome
+Practiced KPI design, data visualization, and dashboard development while exploring employee attrition patterns.
+
+**Skills:** Tableau, KPI Design, Data Visualization, Dashboard Development, HR Analytics
+
+---
 This is part of my daily Tableau learning journey, focused on building an interactive food orders dashboard step by step.
 **#Tableau #DataVisualization #Dashboard #LearningJourney #DataAnalytics**
