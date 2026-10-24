@@ -1,14 +1,25 @@
-### 📊 Tableau Prep — Learning Progress
+## 📅 Day 7: Tableau Prep Installation and Setup
 
+### Activities Completed
 
-
-- Successfully installed Tableau Prep.
+- Downloaded and installed Tableau Prep.
 - Troubleshot and resolved an installation issue.
-- Prepared to start learning data cleaning and transformation workflows.
+- Explored the initial setup required for data preparation.
+- Prepared the environment for learning data cleaning and transformation workflows.
 
-**Next Steps:**
-- Explore the Tableau Prep interface.
-- Connect a sample dataset.
-- Practice cleaning and transforming data.
-- Document my practical learnings.
+### Learning Outcome
 
+Successfully installed Tableau Prep and prepared the environment for hands-on practice in data cleaning, data transformation, and workflow development.
+
+### Project File
+
+- Tableau Prep installation and setup — Learning documentation.
+
+### Tools Used
+
+- Tableau Prep Builder
+- GitHub
+
+### Skills Learned
+
+Tableau Prep, Software Installation, Troubleshooting, Data Preparation, Data Transformation
