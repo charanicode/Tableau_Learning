@@ -11,9 +11,6 @@
 
 Successfully installed Tableau Prep and prepared the environment for hands-on practice in data cleaning, data transformation, and workflow development.
 
-### Project File
-
-- Tableau Prep installation and setup — Learning documentation.
 
 ### Tools Used
 
