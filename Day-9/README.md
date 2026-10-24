@@ -1,46 +1,27 @@
-# 📊 Employee Attrition Dashboard | Tableau
+## 📅 Day 9: Employee Attrition Dashboard
 
-An interactive HR Analytics dashboard built in Tableau to analyze employee attrition and uncover trends across different workforce segments. The dashboard highlights key HR metrics and visual insights that help understand employee turnover patterns.
+### Activities Completed
 
-## 🎯 Objective
+- Created an Employee Attrition Dashboard using Tableau.
+- Designed KPI cards to display key HR metrics.
+- Analyzed employee attrition by age and department.
+- Visualized attrition count by gender.
+- Explored the relationship between overtime and employee attrition.
+- Created visualizations to identify workforce attrition patterns.
 
-To analyze employee attrition using interactive KPIs and visualizations, enabling quick insights into workforce trends by age, department, gender, and overtime.
+### Learning Outcome
 
-## 🛠️ Tools Used
+Improved my understanding of KPI design, HR data analysis, data visualization, and dashboard development using Tableau.
+
+
+### Tools Used
 
 - Tableau
-- Data Visualization
-- Dashboard Design
-- HR Analytics
+- HR Attrition Dataset
 
-## 📌 Dashboard KPIs
+### Skills Learned
 
-- Total Employees
-- Attrition Count
-- Attrition Rate
-- Active Employees
-
-## 📊 Visualizations Created
-
-- **Attrition by Age** – Analyzed how attrition varies across different age groups.
-- **Attrition by Department** – Compared employee turnover across departments.
-- **Attrition Count by Gender** – Visualized attrition distribution between male and female employees.
-- **Overtime vs Attrition** – Examined the relationship between overtime and employee attrition.
-
-## 📈 Key Insights
-
-- Identified age groups with higher employee attrition.
-- Compared which departments experienced greater turnover.
-- Analyzed gender-wise attrition patterns.
-- Observed how overtime is associated with employee attrition.
-
-## 📚 Skills Practiced
-
-- KPI Design
-- Interactive Dashboard Development
-- HR Data Analysis
-- Data Storytelling
-- Tableau Visualization
+KPI Design, Data Visualization, Dashboard Development, HR Analytics, Data Analysis, Data Storytelling
 
 
 ## 🚀 Outcome
