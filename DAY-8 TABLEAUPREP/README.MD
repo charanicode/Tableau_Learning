@@ -31,19 +31,7 @@ As part of my Tableau Learning Journey, I worked with Tableau Prep Builder to pr
 - Connected data preparation steps to organize the cleaning and transformation process.
 - Prepared the resulting dataset for output.
 
-## 📸 Project Screenshots
 
-### Tableau Prep Workflow
-
-This screenshot shows the workflow created in Tableau Prep Builder, including the data preparation and combining steps.
-
-![Tableau Prep Workflow](screenshots/tableau-prep-workflow.png)
-
-### Final Output
-
-This screenshot shows the final output after applying the data preparation steps.
-
-![Final Output](screenshots/final-output.png)
 
 ## 📚 Key Learnings
 
@@ -69,6 +57,6 @@ Gained practical experience in data cleaning, transformation, and data integrati
 
 `Tableau Prep Builder` · `Data Cleaning` · `Data Transformation` · `Data Filtering` · `Joins` · `Unions` · `Data Preparation`
 
----.
+---
 
 #Tableau #TableauPrep #DataAnalytics #DataCleaning #DataPreparation #LearningJourney
