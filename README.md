@@ -1,6 +1,6 @@
 # Tableau Learning Journey 📊
 
-Welcome to my Tableau Learning Journey! This repository documents my hands-on learning experience with Tableau, from installation and account setup to creating data visualizations and dashboards.
+Welcome to my Tableau Learning Journey! This repository documents my hands-on learning experience with Tableau, from installation and basic visualizations to data preparation and dashboard development.
 
 ## 📅 Day 1: Tableau Installation and Setup
 
@@ -34,102 +34,87 @@ Created a Tableau dashboard using Swiggy restaurant data to practice data visual
 ### Learning Outcome
 Gained practical experience in data connection, worksheet creation, and dashboard design.
 
-## 🚀 Future Learning Goals
-- Learn interactive filters and dashboard actions.
-- Improve dashboard design and formatting.
-- Explore advanced charts and data analysis.
-- Build more real-world Tableau projects.
-
 ## 📅 Day 3: Power BI vs Tableau — Terminology Comparison
 
-### 📚 What I Learned
-- Compared Power BI and Tableau terminology to understand how similar concepts are named in both tools.
-- Identified the differences between Power Query and Tableau Prep.
+### What I Learned
+- Compared Power BI and Tableau terminology.
+- Explored Power Query and Tableau Prep.
 - Compared DAX with Tableau's calculation language.
-- Understood the terminology differences between calculated columns, measures, and calculated fields.
-- Compared Power BI model relationships with Tableau relationships.
-- Identified the difference between Power Query Merge Queries and Tableau joins.
-- Explored terminology related to worksheets, dashboards, filters, and data connections.
+- Understood calculated columns, measures, and calculated fields.
+- Compared joins, unions, relationships, worksheets, dashboards, and filters.
 
-### 🔄 Key Terminology Differences
+### Key Terminology Differences
 
 | Power BI | Tableau |
 |---|---|
 | Power Query | Tableau Prep / Data Source page |
 | DAX | Tableau calculation language |
 | Calculated Columns / Measures | Calculated Fields |
-| Model View Relationships | Data Source Relationships |
 | Merge Queries | Joins |
 | Append Queries | Unions |
-| Visualizations Pane | Rows, Columns, and Marks |
 | Report Page | Worksheet / Dashboard |
 | Slicers | Filter Cards / Filter Controls |
 | Import Mode | Extract |
 | DirectQuery | Live Connection |
 
-*Note: These are conceptual comparisons. Similar terms do not always have identical functionality or behavior.*
-
-### 🎯 Learning Outcome
-Developed a foundational understanding of Tableau terminology by comparing it with familiar Power BI concepts. This comparison will help me transition to Tableau more effectively as I continue learning the tool.
-
-### 🛠️ Tools
-- Microsoft Power BI
-- Tableau Learning Documentation
-
-## Day 4 – Tableau Worksheet Development
-
-- Continued practicing data visualization in Tableau.
-- Created worksheets to explore and analyze the dataset.
-- Experimented with charts and visual representations of the data.
-- Prepared visualizations for the upcoming dashboard development.
-
-**Status:** Worksheet development completed; dashboard development in progress.
-
-## Day 5 – KPI Cards and Dashboard Development
-
-- Created multiple worksheets in Tableau.
-- Worked on KPI cards to display key metrics.
-- Organized visualizations for dashboard integration.
-- Started combining individual worksheets into a dashboard.
-
-**Status:** Dashboard development in progress.
-
-## Day 6 – Tableau Filter Options
-
-- **Topic:** Adding Filter Options to a Tableau Dashboard
-- **Tool Used:** Tableau
-- **Dataset:** Hyderabad Food Orders Dataset
-
-**Work Completed:**
-- Created filter options for Cuisine, Food Type, and Locality.
-- Enabled interactive filtering to explore food order data based on selected categories and locations.
-- Worked with multiple worksheets covering sales, total orders, quantity, discounts, delivery status, and top cuisines.
-- Improved dashboard interactivity and data exploration.
-
-**Skills Learned:** Tableau Filters, Interactive Dashboards, Data Visualization, Data Analysis
-
-**File:** `Day6-filteroptions_tableau.twb`
-## 📅 Day 7 – Tableau Prep Installation and Troubleshooting
-
-### Activities Completed
-
-- Installed Tableau Prep.
-- Troubleshot and resolved the installation issue.
-- Prepared the environment to begin learning data preparation and transformation.
+*Note: These are conceptual comparisons; similar terms may have different functionality.*
 
 ### Learning Outcome
+Developed a foundational understanding of Tableau terminology by comparing it with Power BI concepts.
 
-Successfully resolved the installation issue and prepared Tableau Prep for hands-on practice.
+## 📅 Day 4: Tableau Worksheet Development
 
-### Next Steps
+### Activities Completed
+- Created worksheets to explore and analyze datasets.
+- Experimented with different charts and visualizations.
+- Prepared visualizations for dashboard development.
 
-- Explore the Tableau Prep interface.
-- Connect a sample dataset.
-- Practice cleaning and transforming data.
+### Learning Outcome
+Improved my understanding of worksheet creation and data visualization.
 
-**Skills:** Tableau Prep, Troubleshooting, Data Preparation
+## 📅 Day 5: KPI Cards and Dashboard Development
 
-## 📅 Day 8 – Data Cleaning, Joins & Unions Using Tableau Prep
+### Activities Completed
+- Created multiple worksheets.
+- Practiced designing KPI cards to display key metrics.
+- Organized visualizations for dashboard integration.
+- Started combining worksheets into a dashboard.
+
+### Learning Outcome
+Learned the basics of KPI design and dashboard development.
+
+## 📅 Day 6: Tableau Filter Options
+
+**Topic:** Adding Filter Options to a Tableau Dashboard
+
+**Dataset:** Hyderabad Food Orders Dataset
+
+### Activities Completed
+- Created filters for Cuisine, Food Type, and Locality.
+- Enabled interactive filtering based on categories and locations.
+- Worked with worksheets covering sales, orders, quantity, discounts, delivery status, and top cuisines.
+- Improved dashboard interactivity and data exploration.
+
+### Skills Learned
+Tableau Filters, Interactive Dashboards, Data Visualization, Data Analysis
+
+### Project File
+- `Day6-filteroptions_tableau.twb`
+
+## 📅 Day 7: Tableau Prep Installation and Troubleshooting
+
+### Activities Completed
+- Installed Tableau Prep.
+- Troubleshot and resolved the installation issue.
+- Prepared the environment for data preparation and transformation.
+
+### Learning Outcome
+Successfully set up Tableau Prep for hands-on practice.
+
+### Skills Learned
+Tableau Prep, Troubleshooting, Data Preparation
+
+## 📅 Day 8: Data Cleaning, Joins and Unions Using Tableau Prep
 
 ### Activities Completed
 - Renamed fields and changed data types.
@@ -142,20 +127,19 @@ Successfully resolved the installation issue and prepared Tableau Prep for hands
 - GitHub
 
 ### Learning Outcome
-Gained hands-on experience in data cleaning, transformation, and combining datasets using Tableau Prep Builder.
+Gained hands-on experience in data cleaning, transformation, and combining datasets.
 
-**Skills:** Tableau Prep, Data Cleaning, Data Transformation, Joins, Unions
+### Skills Learned
+Tableau Prep, Data Cleaning, Data Transformation, Joins, Unions
 
-
-
-## 📅 Day 9 – Employee Attrition Dashboard
+## 📅 Day 9: Employee Attrition Dashboard
 
 ### Activities Completed
 - Created KPI cards to display key metrics.
 - Analyzed attrition by age and department.
 - Visualized attrition count by gender.
 - Explored the relationship between overtime and attrition.
-- Designed an Employee Attrition Dashboard using Tableau.
+- Designed an Employee Attrition Dashboard.
 
 ### Tools Used
 - Tableau
@@ -163,6 +147,43 @@ Gained hands-on experience in data cleaning, transformation, and combining datas
 
 ### Learning Outcome
 Practiced KPI design, data visualization, and dashboard development while exploring employee attrition patterns.
+
+### Skills Learned
+Tableau, KPI Design, Data Visualization, Dashboard Development, HR Analytics
+
+## 📅 Day 10: Creating Bins and Parameters
+
+### Activities Completed
+- Created bins to group numerical data into intervals.
+- Explored parameters and their use in interactive analysis.
+- Practiced using Tableau features to support data exploration.
+- Continued developing the Employee Attrition Dashboard.
+
+### Tools Used
+- Tableau
+- GitHub
+
+### Learning Outcome
+Improved my understanding of data grouping using bins and interactive analysis using parameters in Tableau.
+
+### Skills Learned
+Tableau Bins, Parameters, Data Analysis, Dashboard Development
+
+### Project File
+- `day10_complete_attrition dashboard.twb` — Tableau workbook.
+
+## 🚀 Future Learning Goals
+
+- Explore advanced Tableau calculations.
+- Learn interactive filters and dashboard actions.
+- Improve dashboard design and formatting.
+- Build more real-world data analytics projects.
+
+---
+
+**My Learning Goal:** To develop practical data analytics skills through consistent learning, hands-on projects, and regular progress updates.
+
+#Tableau #DataVisualization #Dashboard #LearningJourney #DataAnalytics
 
 **Skills:** Tableau, KPI Design, Data Visualization, Dashboard Development, HR Analytics
 
