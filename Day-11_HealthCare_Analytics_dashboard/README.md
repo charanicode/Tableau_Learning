@@ -2,49 +2,55 @@
 
 ## 📌 Project Overview
 
-As part of my Tableau learning journey, I created an initial Healthcare Analytics Dashboard to practice data visualization and explore healthcare-related data.
+As part of my Tableau learning journey, I created an initial Healthcare Analytics Dashboard to explore healthcare data and practice data visualization.
 
-This project is currently a work in progress. I plan to improve the dashboard layout, design, and analytical insights as I continue learning Tableau with guidance from my mentor.
+In this project, I established relationships between tables in Tableau's data model and created visualizations to explore healthcare metrics. The dashboard is currently a work in progress, and I plan to improve its design and analytical insights as I continue learning from my mentor.
 
 ## 🎯 Activities Completed
 
-- Created an initial Healthcare Analytics Dashboard using Tableau.
-- Explored healthcare data through different worksheets and visualizations.
+- Connected healthcare datasets to Tableau.
+- Created relationships between tables in the Tableau data model.
+- Explored healthcare data using multiple worksheets.
 - Analyzed patient payments by medical condition.
-- Visualized patient payments based on admission type.
+- Visualized patient payments by admission type.
 - Explored average days per medication.
 - Displayed patient count and key metrics.
-- Practiced organizing multiple worksheets into a single dashboard.
-- Gained hands-on experience with Tableau dashboard development.
+- Organized multiple worksheets into an initial dashboard.
 
 ## 🛠️ Tools Used
 
-- **Tableau:** Dashboard creation and data visualization.
-- **Microsoft Excel:** Healthcare dataset (data source).
+- **Tableau:** Data modeling, worksheets, dashboards, and visualizations.
+- **Microsoft Excel:** Healthcare data source.
 
 ## 📊 Analysis Covered
 
 ### 1. Patient Count
-Explored the number of patients represented in the dataset.
+Explored patient counts represented in the dataset.
 
 ### 2. Average Days per Medication
-Examined the average duration associated with medication-related data.
+Examined medication-related duration metrics.
 
 ### 3. Patient Payments by Medical Condition
-Created visualizations to compare patient payment amounts across different medical conditions.
+Compared patient payment amounts across medical conditions.
 
 ### 4. Patient Payments by Admission Type
-Explored payment patterns across different admission categories.
+Explored payment patterns across admission categories.
+
+## 🔗 Data Modeling
+
+- Created relationships between tables in Tableau.
+- Practiced connecting related datasets through the data model.
+- Explored how related tables can support analysis across different healthcare attributes.
 
 ## 💡 Skills Practiced
 
+- Tableau Data Modeling and Relationships
 - Data Visualization
-- Tableau Worksheets and Dashboards
+- Worksheet and Dashboard Development
 - KPI Presentation
 - Healthcare Data Exploration
 - Comparative Data Analysis
 - Dashboard Organization
-- Visual Presentation of Data
 
 ## 📁 Project Files
 
@@ -52,35 +58,36 @@ Explored payment patterns across different admission categories.
 - `README.md` — Project documentation.
 - `dashboard-preview.png` — Dashboard screenshot (optional).
 
-**Note:** The `.twb` file may depend on an external Excel data source. The workbook might not display correctly on another computer unless the data source is also available and the connection is configured. A packaged `.twbx` workbook can be used when appropriate.
+**Note:** The `.twb` workbook may depend on an external Excel data source. Ensure the source data is available and the connection is configured correctly when sharing the workbook.
 
 ## 🚧 Project Status
 
 **Status: In Progress**
 
-This is an initial practice dashboard. I plan to redesign and enhance it after learning additional dashboard design techniques from my mentor.
+This is an initial practice dashboard. I plan to enhance it after learning additional dashboard design techniques from my mentor.
 
-Planned improvements:
+### Planned Improvements
+
 - Improve dashboard layout and visual consistency.
-- Enhance chart selection and formatting.
-- Refine KPI presentation.
-- Improve readability and user experience.
+- Refine chart formatting and KPI presentation.
+- Enhance dashboard readability and user experience.
 - Add meaningful analytical insights after validating the data.
+- Continue improving data modeling and visualization skills.
 
 ## 📚 Key Learnings
 
-This practice project helped me gain hands-on experience in exploring healthcare data and presenting metrics through Tableau visualizations. It also helped me identify areas where I can improve my dashboard design and analytical storytelling skills.
+This practice project helped me understand how to create relationships between tables in Tableau and use connected data to build visualizations. It also gave me hands-on experience with healthcare metrics, dashboard development, and data exploration.
 
 ## 🚀 Learning Journey
 
 This project is part of my ongoing journey to develop practical Data Analyst skills through consistent learning and hands-on projects.
 
-More improvements and updates will be added as I progress.
+More improvements will be added as I continue learning Tableau.
 
 ---
 
 **Tools:** Tableau | Microsoft Excel
 
-**Topics:** Healthcare Analytics | Data Visualization | Dashboard Development
+**Topics:** Healthcare Analytics | Data Modeling | Tableau Relationships | Data Visualization | Dashboard Development
 
-#Tableau #DataAnalytics #HealthcareAnalytics #DataVisualization #LearningInPublic
+#Tableau #DataAnalytics #HealthcareAnalytics #DataModeling #DataVisualization #LearningInPublic
