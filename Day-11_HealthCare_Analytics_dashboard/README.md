@@ -52,14 +52,6 @@ Explored payment patterns across admission categories.
 - Comparative Data Analysis
 - Dashboard Organization
 
-## 📁 Project Files
-
-- `day-11 HealthcarePractice.twb` — Tableau workbook containing the initial dashboard and worksheets.
-- `README.md` — Project documentation.
-- `dashboard-preview.png` — Dashboard screenshot (optional).
-
-**Note:** The `.twb` workbook may depend on an external Excel data source. Ensure the source data is available and the connection is configured correctly when sharing the workbook.
-
 ## 🚧 Project Status
 
 **Status: In Progress**
