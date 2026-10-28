@@ -1,0 +1,1463 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20263.26.1022.1645                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='1684598934167a5ade885d8403c4b0b3bb0f3d30706b3b362388c0a6eb913d0b' _.fcp.WorkbookFingerprinting.true...creator-author-id='1684598934167a5ade885d8403c4b0b3bb0f3d30706b3b362388c0a6eb913d0b' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='93ee4f0abfd51fccd50d50911374978b6088bbf6a681a4ca1ec063dafacf9595' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='93ee4f0abfd51fccd50d50911374978b6088bbf6a681a4ca1ec063dafacf9595' original-version='18.1' source-build='2026.3.0 (20263.26.1022.1645)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Dataset+ (Copy of Copy of HealthCare_Dataset_v2.00)' inline='true' name='federated.12sm2da1pkx5ww1bytbb51ms2wl4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Copy of Copy of HealthCare_Dataset_v2.00' name='excel-direct.0srcb8o0b19a3p1ev3rww0we7467'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/chara/OneDrive/Desktop/DATA ANALYTICS/Day 95 - 20261023 - Healthcare Details/Copy of Copy of HealthCare_Dataset_v2.00.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation type='collection'>
+          <relation connection='excel-direct.0srcb8o0b19a3p1ev3rww0we7467' name='Dataset' table='[Dataset$]' type='table'>
+            <columns gridOrigin='A1:P10001:no:A1:P10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='Name' ordinal='0' />
+              <column datatype='integer' name='Age' ordinal='1' />
+              <column datatype='integer' name='Gender ID' ordinal='2' />
+              <column datatype='string' name='Blood Type' ordinal='3' />
+              <column datatype='integer' name='Condition ID' ordinal='4' />
+              <column datatype='date' name='Date of Admission' ordinal='5' />
+              <column datatype='integer' name='Doctor ID' ordinal='6' />
+              <column datatype='integer' name='Hospital ID' ordinal='7' />
+              <column datatype='integer' name='Insurance ID' ordinal='8' />
+              <column datatype='real' name='Bill Amount' ordinal='9' />
+              <column datatype='real' name='Approved Amount' ordinal='10' />
+              <column datatype='integer' name='Room Number' ordinal='11' />
+              <column datatype='string' name='Admission Type' ordinal='12' />
+              <column datatype='date' name='Discharge Date' ordinal='13' />
+              <column datatype='string' name='Medication' ordinal='14' />
+              <column datatype='string' name='Test Results' ordinal='15' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.0srcb8o0b19a3p1ev3rww0we7467' name='Insurance Provider' table='[&apos;Insurance Provider$&apos;]' type='table'>
+            <columns gridOrigin='A1:B6:no:A1:B6:0' header='yes' outcome='6'>
+              <column datatype='integer' name='Insurance ID' ordinal='0' />
+              <column datatype='string' name='Insurance Provider' ordinal='1' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.0srcb8o0b19a3p1ev3rww0we7467' name='User Roles' table='[&apos;User Roles$&apos;]' type='table'>
+            <columns gridOrigin='A1:D6:no:A1:D6:0' header='yes' outcome='6'>
+              <column datatype='integer' name='User ID' ordinal='0' />
+              <column datatype='string' name='User Full Name' ordinal='1' />
+              <column datatype='string' name='User Email' ordinal='2' />
+              <column datatype='string' name='Provider Name' ordinal='3' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[Admission Type]' value='[Dataset].[Admission Type]' />
+          <map key='[Age]' value='[Dataset].[Age]' />
+          <map key='[Approved Amount]' value='[Dataset].[Approved Amount]' />
+          <map key='[Bill Amount]' value='[Dataset].[Bill Amount]' />
+          <map key='[Blood Type]' value='[Dataset].[Blood Type]' />
+          <map key='[Condition ID]' value='[Dataset].[Condition ID]' />
+          <map key='[Date of Admission]' value='[Dataset].[Date of Admission]' />
+          <map key='[Discharge Date]' value='[Dataset].[Discharge Date]' />
+          <map key='[Doctor ID]' value='[Dataset].[Doctor ID]' />
+          <map key='[Gender ID]' value='[Dataset].[Gender ID]' />
+          <map key='[Hospital ID]' value='[Dataset].[Hospital ID]' />
+          <map key='[Insurance ID (Insurance Provider)]' value='[Insurance Provider].[Insurance ID]' />
+          <map key='[Insurance ID]' value='[Dataset].[Insurance ID]' />
+          <map key='[Insurance Provider]' value='[Insurance Provider].[Insurance Provider]' />
+          <map key='[Medication]' value='[Dataset].[Medication]' />
+          <map key='[Name]' value='[Dataset].[Name]' />
+          <map key='[Provider Name]' value='[User Roles].[Provider Name]' />
+          <map key='[Room Number]' value='[Dataset].[Room Number]' />
+          <map key='[Test Results]' value='[Dataset].[Test Results]' />
+          <map key='[User Email]' value='[User Roles].[User Email]' />
+          <map key='[User Full Name]' value='[User Roles].[User Full Name]' />
+          <map key='[User ID]' value='[User Roles].[User ID]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Dataset]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:P10001:no:A1:P10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Insurance Provider]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B6:no:A1:B6:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[User Roles]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D6:no:A1:D6:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[Dataset]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Dataset]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gender ID]</local-name>
+            <parent-name>[Dataset]</parent-name>
+            <remote-alias>Gender ID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Blood Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Blood Type]</local-name>
+            <parent-name>[Dataset]</parent-name>
+            <remote-alias>Blood Type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Condition ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Condition ID]</local-name>
+            <parent-name>[Dataset]</parent-name>
+            <remote-alias>Condition ID</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date of Admission</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date of Admission]</local-name>
+            <parent-name>[Dataset]</parent-name>
+            <remote-alias>Date of Admission</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Doctor ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Doctor ID]</local-name>
+            <parent-name>[Dataset]</parent-name>
+            <remote-alias>Doctor ID</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hospital ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hospital ID]</local-name>
+            <parent-name>[Dataset]</parent-name>
+            <remote-alias>Hospital ID</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Insurance ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Insurance ID]</local-name>
+            <parent-name>[Dataset]</parent-name>
+            <remote-alias>Insurance ID</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bill Amount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Bill Amount]</local-name>
+            <parent-name>[Dataset]</parent-name>
+            <remote-alias>Bill Amount</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Approved Amount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Approved Amount]</local-name>
+            <parent-name>[Dataset]</parent-name>
+            <remote-alias>Approved Amount</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Room Number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Room Number]</local-name>
+            <parent-name>[Dataset]</parent-name>
+            <remote-alias>Room Number</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Admission Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Admission Type]</local-name>
+            <parent-name>[Dataset]</parent-name>
+            <remote-alias>Admission Type</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Discharge Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Discharge Date]</local-name>
+            <parent-name>[Dataset]</parent-name>
+            <remote-alias>Discharge Date</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Medication</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Medication]</local-name>
+            <parent-name>[Dataset]</parent-name>
+            <remote-alias>Medication</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Test Results</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Test Results]</local-name>
+            <parent-name>[Dataset]</parent-name>
+            <remote-alias>Test Results</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Insurance ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Insurance ID (Insurance Provider)]</local-name>
+            <parent-name>[Insurance Provider]</parent-name>
+            <remote-alias>Insurance ID</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Insurance Provider_6A36122A46A04B4F89083CB2DD152609]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Insurance Provider</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Insurance Provider]</local-name>
+            <parent-name>[Insurance Provider]</parent-name>
+            <remote-alias>Insurance Provider</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Insurance Provider_6A36122A46A04B4F89083CB2DD152609]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>User ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[User ID]</local-name>
+            <parent-name>[User Roles]</parent-name>
+            <remote-alias>User ID</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[User Roles_10829940E63C4F14A9B6B6CD05BD35AD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>User Full Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[User Full Name]</local-name>
+            <parent-name>[User Roles]</parent-name>
+            <remote-alias>User Full Name</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[User Roles_10829940E63C4F14A9B6B6CD05BD35AD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>User Email</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[User Email]</local-name>
+            <parent-name>[User Roles]</parent-name>
+            <remote-alias>User Email</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[User Roles_10829940E63C4F14A9B6B6CD05BD35AD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Provider Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Provider Name]</local-name>
+            <parent-name>[User Roles]</parent-name>
+            <remote-alias>Provider Name</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[User Roles_10829940E63C4F14A9B6B6CD05BD35AD]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[Approved Amount]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Bill Amount]' role='measure' type='quantitative' />
+      <column caption='whologgedin' datatype='boolean' name='[Calculation_1578959269552128]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='FULLNAME()=[User Full Name]' />
+      </column>
+      <column caption='whologgedinemail' datatype='boolean' name='[Calculation_1578959269638145]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='USERNAME()=[User Email]' />
+      </column>
+      <column caption='rls1' datatype='boolean' name='[Calculation_1578959269879810]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='FULLNAME()=[User Full Name]' />
+      </column>
+      <column caption='rls2' datatype='boolean' name='[Calculation_1578959270031363]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='USERNAME()=[User Email]' />
+      </column>
+      <column datatype='integer' name='[Condition ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Doctor ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Gender ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Hospital ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Insurance ID (Insurance Provider)]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Insurance ID]' role='dimension' type='ordinal' />
+      <column caption='Insurance Provider (Insurance Provider)' datatype='string' name='[Insurance Provider]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Room Number]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[User ID]' role='dimension' type='ordinal' />
+      <column caption='Dataset' datatype='table' name='[__tableau_internal_object_id__].[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]' role='measure' type='quantitative' />
+      <column caption='Insurance Provider' datatype='table' name='[__tableau_internal_object_id__].[Insurance Provider_6A36122A46A04B4F89083CB2DD152609]' role='measure' type='quantitative' />
+      <column caption='User Roles' datatype='table' name='[__tableau_internal_object_id__].[User Roles_10829940E63C4F14A9B6B6CD05BD35AD]' role='measure' type='quantitative' />
+      <column-instance column='[Approved Amount]' derivation='Sum' name='[sum:Approved Amount:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Bill Amount]' derivation='Sum' name='[sum:Bill Amount:qk]' pivot='key' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/chara/AppData/Local/Temp/TableauTemp/#TableauTemp_04unemo13tid8r16x1mww0za7hu8.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/28/2026 07:35:08 AM' username='tableau_internal_user'>
+          <relation type='collection'>
+            <relation name='Dataset_790A03E96CDD46729409B3DD6A2AEBB1' table='[Extract].[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]' type='table' />
+            <relation name='Insurance Provider_6A36122A46A04B4F89083CB2DD152609' table='[Extract].[Insurance Provider_6A36122A46A04B4F89083CB2DD152609]' type='table' />
+            <relation name='User Roles_10829940E63C4F14A9B6B6CD05BD35AD' table='[Extract].[User Roles_10829940E63C4F14A9B6B6CD05BD35AD]' type='table' />
+          </relation>
+          <cols>
+            <map key='[Admission Type]' value='[Dataset_790A03E96CDD46729409B3DD6A2AEBB1].[Admission Type]' />
+            <map key='[Age]' value='[Dataset_790A03E96CDD46729409B3DD6A2AEBB1].[Age]' />
+            <map key='[Approved Amount]' value='[Dataset_790A03E96CDD46729409B3DD6A2AEBB1].[Approved Amount]' />
+            <map key='[Bill Amount]' value='[Dataset_790A03E96CDD46729409B3DD6A2AEBB1].[Bill Amount]' />
+            <map key='[Blood Type]' value='[Dataset_790A03E96CDD46729409B3DD6A2AEBB1].[Blood Type]' />
+            <map key='[Condition ID]' value='[Dataset_790A03E96CDD46729409B3DD6A2AEBB1].[Condition ID]' />
+            <map key='[Date of Admission]' value='[Dataset_790A03E96CDD46729409B3DD6A2AEBB1].[Date of Admission]' />
+            <map key='[Discharge Date]' value='[Dataset_790A03E96CDD46729409B3DD6A2AEBB1].[Discharge Date]' />
+            <map key='[Doctor ID]' value='[Dataset_790A03E96CDD46729409B3DD6A2AEBB1].[Doctor ID]' />
+            <map key='[Gender ID]' value='[Dataset_790A03E96CDD46729409B3DD6A2AEBB1].[Gender ID]' />
+            <map key='[Hospital ID]' value='[Dataset_790A03E96CDD46729409B3DD6A2AEBB1].[Hospital ID]' />
+            <map key='[Insurance ID (Insurance Provider)]' value='[Insurance Provider_6A36122A46A04B4F89083CB2DD152609].[Insurance ID]' />
+            <map key='[Insurance ID]' value='[Dataset_790A03E96CDD46729409B3DD6A2AEBB1].[Insurance ID]' />
+            <map key='[Insurance Provider]' value='[Insurance Provider_6A36122A46A04B4F89083CB2DD152609].[Insurance Provider]' />
+            <map key='[Medication]' value='[Dataset_790A03E96CDD46729409B3DD6A2AEBB1].[Medication]' />
+            <map key='[Name]' value='[Dataset_790A03E96CDD46729409B3DD6A2AEBB1].[Name]' />
+            <map key='[Provider Name]' value='[User Roles_10829940E63C4F14A9B6B6CD05BD35AD].[Provider Name]' />
+            <map key='[Room Number]' value='[Dataset_790A03E96CDD46729409B3DD6A2AEBB1].[Room Number]' />
+            <map key='[Test Results]' value='[Dataset_790A03E96CDD46729409B3DD6A2AEBB1].[Test Results]' />
+            <map key='[User Email]' value='[User Roles_10829940E63C4F14A9B6B6CD05BD35AD].[User Email]' />
+            <map key='[User Full Name]' value='[User Roles_10829940E63C4F14A9B6B6CD05BD35AD].[User Full Name]' />
+            <map key='[User ID]' value='[User Roles_10829940E63C4F14A9B6B6CD05BD35AD].[User ID]' />
+          </cols>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Name]</local-name>
+              <parent-name>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</parent-name>
+              <remote-alias>Name</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Dataset</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20604</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Age]</local-name>
+              <parent-name>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</parent-name>
+              <remote-alias>Age</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Dataset</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>68</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gender ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Gender ID]</local-name>
+              <parent-name>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</parent-name>
+              <remote-alias>Gender ID</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Dataset</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Blood Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Blood Type]</local-name>
+              <parent-name>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</parent-name>
+              <remote-alias>Blood Type</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Dataset</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Condition ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Condition ID]</local-name>
+              <parent-name>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</parent-name>
+              <remote-alias>Condition ID</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Dataset</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date of Admission</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date of Admission]</local-name>
+              <parent-name>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</parent-name>
+              <remote-alias>Date of Admission</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Dataset</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>3350</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Doctor ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Doctor ID]</local-name>
+              <parent-name>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</parent-name>
+              <remote-alias>Doctor ID</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Dataset</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>50</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hospital ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Hospital ID]</local-name>
+              <parent-name>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</parent-name>
+              <remote-alias>Hospital ID</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Dataset</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Insurance ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Insurance ID]</local-name>
+              <parent-name>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</parent-name>
+              <remote-alias>Insurance ID</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Dataset</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Bill Amount</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Bill Amount]</local-name>
+              <parent-name>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</parent-name>
+              <remote-alias>Bill Amount</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Dataset</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25325</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Approved Amount</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Approved Amount]</local-name>
+              <parent-name>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</parent-name>
+              <remote-alias>Approved Amount</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Dataset</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>24145</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Room Number</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Room Number]</local-name>
+              <parent-name>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</parent-name>
+              <remote-alias>Room Number</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Dataset</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>714</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Admission Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Admission Type]</local-name>
+              <parent-name>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</parent-name>
+              <remote-alias>Admission Type</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Dataset</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Discharge Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Discharge Date]</local-name>
+              <parent-name>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</parent-name>
+              <remote-alias>Discharge Date</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Dataset</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>3580</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Medication</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Medication]</local-name>
+              <parent-name>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</parent-name>
+              <remote-alias>Medication</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Dataset</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Test Results</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Test Results]</local-name>
+              <parent-name>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</parent-name>
+              <remote-alias>Test Results</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Dataset</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Insurance ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Insurance ID (Insurance Provider)]</local-name>
+              <parent-name>[Insurance Provider_6A36122A46A04B4F89083CB2DD152609]</parent-name>
+              <remote-alias>Insurance ID</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Insurance Provider</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Insurance Provider_6A36122A46A04B4F89083CB2DD152609]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Insurance Provider</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Insurance Provider]</local-name>
+              <parent-name>[Insurance Provider_6A36122A46A04B4F89083CB2DD152609]</parent-name>
+              <remote-alias>Insurance Provider</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Insurance Provider</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Insurance Provider_6A36122A46A04B4F89083CB2DD152609]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>User ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[User ID]</local-name>
+              <parent-name>[User Roles_10829940E63C4F14A9B6B6CD05BD35AD]</parent-name>
+              <remote-alias>User ID</remote-alias>
+              <ordinal>18</ordinal>
+              <family>User Roles</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[User Roles_10829940E63C4F14A9B6B6CD05BD35AD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>User Full Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[User Full Name]</local-name>
+              <parent-name>[User Roles_10829940E63C4F14A9B6B6CD05BD35AD]</parent-name>
+              <remote-alias>User Full Name</remote-alias>
+              <ordinal>19</ordinal>
+              <family>User Roles</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[User Roles_10829940E63C4F14A9B6B6CD05BD35AD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>User Email</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[User Email]</local-name>
+              <parent-name>[User Roles_10829940E63C4F14A9B6B6CD05BD35AD]</parent-name>
+              <remote-alias>User Email</remote-alias>
+              <ordinal>20</ordinal>
+              <family>User Roles</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[User Roles_10829940E63C4F14A9B6B6CD05BD35AD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Provider Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Provider Name]</local-name>
+              <parent-name>[User Roles_10829940E63C4F14A9B6B6CD05BD35AD]</parent-name>
+              <remote-alias>Provider Name</remote-alias>
+              <ordinal>21</ordinal>
+              <family>User Roles</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[User Roles_10829940E63C4F14A9B6B6CD05BD35AD]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[sum:Bill Amount:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[sum:Approved Amount:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Dataset' id='Dataset_790A03E96CDD46729409B3DD6A2AEBB1'>
+            <properties context=''>
+              <relation connection='excel-direct.0srcb8o0b19a3p1ev3rww0we7467' name='Dataset' table='[Dataset$]' type='table'>
+                <columns gridOrigin='A1:P10001:no:A1:P10001:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Name' ordinal='0' />
+                  <column datatype='integer' name='Age' ordinal='1' />
+                  <column datatype='integer' name='Gender ID' ordinal='2' />
+                  <column datatype='string' name='Blood Type' ordinal='3' />
+                  <column datatype='integer' name='Condition ID' ordinal='4' />
+                  <column datatype='date' name='Date of Admission' ordinal='5' />
+                  <column datatype='integer' name='Doctor ID' ordinal='6' />
+                  <column datatype='integer' name='Hospital ID' ordinal='7' />
+                  <column datatype='integer' name='Insurance ID' ordinal='8' />
+                  <column datatype='real' name='Bill Amount' ordinal='9' />
+                  <column datatype='real' name='Approved Amount' ordinal='10' />
+                  <column datatype='integer' name='Room Number' ordinal='11' />
+                  <column datatype='string' name='Admission Type' ordinal='12' />
+                  <column datatype='date' name='Discharge Date' ordinal='13' />
+                  <column datatype='string' name='Medication' ordinal='14' />
+                  <column datatype='string' name='Test Results' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Dataset_790A03E96CDD46729409B3DD6A2AEBB1' table='[Extract].[Dataset_790A03E96CDD46729409B3DD6A2AEBB1]' type='table' />
+            </properties>
+          </object>
+          <object caption='Insurance Provider' id='Insurance Provider_6A36122A46A04B4F89083CB2DD152609'>
+            <properties context=''>
+              <relation connection='excel-direct.0srcb8o0b19a3p1ev3rww0we7467' name='Insurance Provider' table='[&apos;Insurance Provider$&apos;]' type='table'>
+                <columns gridOrigin='A1:B6:no:A1:B6:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='Insurance ID' ordinal='0' />
+                  <column datatype='string' name='Insurance Provider' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Insurance Provider_6A36122A46A04B4F89083CB2DD152609' table='[Extract].[Insurance Provider_6A36122A46A04B4F89083CB2DD152609]' type='table' />
+            </properties>
+          </object>
+          <object caption='User Roles' id='User Roles_10829940E63C4F14A9B6B6CD05BD35AD'>
+            <properties context=''>
+              <relation connection='excel-direct.0srcb8o0b19a3p1ev3rww0we7467' name='User Roles' table='[&apos;User Roles$&apos;]' type='table'>
+                <columns gridOrigin='A1:D6:no:A1:D6:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='User ID' ordinal='0' />
+                  <column datatype='string' name='User Full Name' ordinal='1' />
+                  <column datatype='string' name='User Email' ordinal='2' />
+                  <column datatype='string' name='Provider Name' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='User Roles_10829940E63C4F14A9B6B6CD05BD35AD' table='[Extract].[User Roles_10829940E63C4F14A9B6B6CD05BD35AD]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[Insurance ID]' />
+              <expression op='[Insurance ID (Insurance Provider)]' />
+            </expression>
+            <first-end-point object-id='Dataset_790A03E96CDD46729409B3DD6A2AEBB1' />
+            <second-end-point object-id='Insurance Provider_6A36122A46A04B4F89083CB2DD152609' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[Insurance Provider]' />
+              <expression op='[Provider Name]' />
+            </expression>
+            <first-end-point object-id='Insurance Provider_6A36122A46A04B4F89083CB2DD152609' />
+            <second-end-point object-id='User Roles_10829940E63C4F14A9B6B6CD05BD35AD' />
+          </relationship>
+        </relationships>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataset+ (Copy of Copy of HealthCare_Dataset_v2.00)' name='federated.12sm2da1pkx5ww1bytbb51ms2wl4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12sm2da1pkx5ww1bytbb51ms2wl4'>
+            <column datatype='real' name='[Approved Amount]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Bill Amount]' role='measure' type='quantitative' />
+            <column caption='rls1' datatype='boolean' name='[Calculation_1578959269879810]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='FULLNAME()=[User Full Name]' />
+            </column>
+            <column caption='Insurance Provider (Insurance Provider)' datatype='string' name='[Insurance Provider]' role='dimension' type='nominal' />
+            <column datatype='string' name='[User Full Name]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1578959269879810]' derivation='None' name='[none:Calculation_1578959269879810:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Insurance Provider]' derivation='None' name='[none:Insurance Provider:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Approved Amount]' derivation='Sum' name='[sum:Approved Amount:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Bill Amount]' derivation='Sum' name='[sum:Bill Amount:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[sum:Bill Amount:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[sum:Approved Amount:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[sum:Bill Amount:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[sum:Approved Amount:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[none:Calculation_1578959269879810:nk]'>
+            <groupfilter function='member' level='[none:Calculation_1578959269879810:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[:Measure Names]</column>
+            <column>[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[none:Calculation_1578959269879810:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[Multiple Values]</rows>
+        <cols>([federated.12sm2da1pkx5ww1bytbb51ms2wl4].[none:Insurance Provider:nk] / [federated.12sm2da1pkx5ww1bytbb51ms2wl4].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{50F14EC7-9FE3-4689-8044-CAA16492E544}' />
+    </worksheet>
+    <worksheet name='Sheet 1 (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataset+ (Copy of Copy of HealthCare_Dataset_v2.00)' name='federated.12sm2da1pkx5ww1bytbb51ms2wl4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12sm2da1pkx5ww1bytbb51ms2wl4'>
+            <column datatype='real' name='[Approved Amount]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Bill Amount]' role='measure' type='quantitative' />
+            <column caption='rls2' datatype='boolean' name='[Calculation_1578959270031363]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='USERNAME()=[User Email]' />
+            </column>
+            <column caption='Insurance Provider (Insurance Provider)' datatype='string' name='[Insurance Provider]' role='dimension' type='nominal' />
+            <column datatype='string' name='[User Email]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1578959270031363]' derivation='None' name='[none:Calculation_1578959270031363:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Insurance Provider]' derivation='None' name='[none:Insurance Provider:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Approved Amount]' derivation='Sum' name='[sum:Approved Amount:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Bill Amount]' derivation='Sum' name='[sum:Bill Amount:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[sum:Bill Amount:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[sum:Approved Amount:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[sum:Bill Amount:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[sum:Approved Amount:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[none:Calculation_1578959270031363:nk]'>
+            <groupfilter function='member' level='[none:Calculation_1578959270031363:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[:Measure Names]</column>
+            <column>[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[none:Calculation_1578959270031363:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[Multiple Values]</rows>
+        <cols>([federated.12sm2da1pkx5ww1bytbb51ms2wl4].[none:Insurance Provider:nk] / [federated.12sm2da1pkx5ww1bytbb51ms2wl4].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{0C45BEE6-8162-4DA1-A590-9160AF53E125}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[:Measure Names]</field>
+            <field>[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[none:Calculation_1578959269879810:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{46ABFF7B-04B3-4DFD-81F4-E46F98E9742E}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 1 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[:Measure Names]</field>
+            <field>[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[none:Calculation_1578959269879810:nk]</field>
+            <field>[federated.12sm2da1pkx5ww1bytbb51ms2wl4].[none:Calculation_1578959270031363:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{33EDF462-E4F5-4675-8ABB-2347A883DD3C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      mjUjxKUrGAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1 (2)' width='192'>
+      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
+      mjUjxKUrGAAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
