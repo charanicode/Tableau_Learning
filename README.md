@@ -1,8 +1,8 @@
 # 📊 Tableau Learning Journey
 
-Welcome to my **Tableau Learning Journey!**
+Welcome to my Tableau Learning Journey!
 
-This repository documents my hands-on learning experience with Tableau, from installation and basic visualizations to data preparation, calculated fields, dashboard development, data security, and storytelling.
+This repository documents my hands-on learning experience with Tableau, from installation and basic visualizations to data preparation, calculated fields, dashboard development, data security, storytelling, and Level of Detail (LOD) expressions.
 
 Through daily practice and projects, I am building practical data visualization and analytics skills to prepare for entry-level Data Analyst opportunities.
 
@@ -14,14 +14,14 @@ Through daily practice and projects, I am building practical data visualization 
 - Explore data relationships, calculations, bins, and parameters.
 - Understand row-level security and workbook publishing.
 - Present insights effectively using Tableau Stories.
-
----
+- Learn advanced Tableau calculations and LOD expressions.
 
 ## 📚 Learning Progress
 
 ### 📅 Day 1 – Tableau Installation and Setup
 
 **Activities Completed**
+
 - Downloaded and installed Tableau.
 - Created a Tableau account.
 - Explored the Tableau interface and workspace.
@@ -32,6 +32,7 @@ Through daily practice and projects, I am building practical data visualization 
 ### 📅 Day 2 – Swiggy Data Dashboard
 
 **Activities Completed**
+
 - Connected Swiggy restaurant data to Tableau.
 - Explored restaurant, location, food category, price, and rating fields.
 - Created three worksheets.
@@ -46,6 +47,7 @@ Through daily practice and projects, I am building practical data visualization 
 ### 📅 Day 3 – Power BI vs Tableau: Terminology Comparison
 
 **Topics Covered**
+
 - Compared Power BI and Tableau terminology.
 - Explored Power Query and Tableau Prep.
 - Compared DAX with Tableau's calculation language.
@@ -57,6 +59,7 @@ Through daily practice and projects, I am building practical data visualization 
 ### 📅 Day 4 – Tableau Worksheet Development
 
 **Activities Completed**
+
 - Created worksheets to explore datasets.
 - Experimented with different charts and visualizations.
 - Prepared visualizations for dashboard development.
@@ -66,6 +69,7 @@ Through daily practice and projects, I am building practical data visualization 
 ### 📅 Day 5 – KPI Cards and Dashboard Development
 
 **Activities Completed**
+
 - Created multiple worksheets.
 - Practiced designing KPI cards to display key metrics.
 - Organized visualizations for dashboard integration.
@@ -78,6 +82,7 @@ Through daily practice and projects, I am building practical data visualization 
 **Dataset:** Hyderabad Food Orders Dataset
 
 **Activities Completed**
+
 - Created filters for Cuisine, Food Type, and Locality.
 - Enabled interactive filtering based on categories and locations.
 - Explored sales, orders, quantity, discounts, delivery status, and top cuisines.
@@ -92,6 +97,7 @@ Through daily practice and projects, I am building practical data visualization 
 ### 📅 Day 7 – Tableau Prep Installation and Troubleshooting
 
 **Activities Completed**
+
 - Installed Tableau Prep.
 - Troubleshot and resolved installation issues.
 - Prepared the environment for data preparation and transformation.
@@ -103,6 +109,7 @@ Through daily practice and projects, I am building practical data visualization 
 ### 📅 Day 8 – Data Cleaning, Joins and Unions Using Tableau Prep
 
 **Activities Completed**
+
 - Renamed fields and changed data types.
 - Filtered unwanted rows.
 - Combined datasets using joins and unions.
@@ -117,6 +124,7 @@ Through daily practice and projects, I am building practical data visualization 
 ### 📅 Day 9 – Employee Attrition Dashboard
 
 **Activities Completed**
+
 - Created KPI cards to display key metrics.
 - Analyzed attrition by age and department.
 - Visualized attrition count by gender.
@@ -132,6 +140,7 @@ Through daily practice and projects, I am building practical data visualization 
 ### 📅 Day 10 – Creating Bins and Parameters
 
 **Activities Completed**
+
 - Created bins to group numerical data into intervals.
 - Explored parameters and their use in interactive analysis.
 - Practiced Tableau features for data exploration.
@@ -150,6 +159,7 @@ Through daily practice and projects, I am building practical data visualization 
 Created an initial healthcare analytics dashboard to explore healthcare metrics and practice Tableau data modeling and visualization.
 
 **Activities Completed**
+
 - Connected healthcare datasets to Tableau.
 - Created relationships between tables in Tableau's data model.
 - Explored patient count and key metrics.
@@ -169,6 +179,7 @@ Created an initial healthcare analytics dashboard to explore healthcare metrics 
 ### 📅 Day 12 – Tableau Calculated Fields
 
 **Activities Completed**
+
 - Explored different methods of creating calculated fields.
 - Practiced writing calculations using existing data.
 - Learned how calculated fields can derive new values.
@@ -185,6 +196,7 @@ Created an initial healthcare analytics dashboard to explore healthcare metrics 
 ### 📅 Day 13 – Tableau Row-Level Security
 
 **Topics Covered**
+
 - Explored the concept of Row-Level Security (RLS) in Tableau.
 - Learned how data visibility can be restricted based on user permissions.
 - Explored publishing a Tableau workbook.
@@ -192,7 +204,7 @@ Created an initial healthcare analytics dashboard to explore healthcare metrics 
 
 **Tools:** Tableau
 
-**Project File:** `day13-rowlevelsecurity.twb` *(use this filename only if it matches your actual workbook)*
+**Project File:** `day13-rowlevelsecurity.twb` (use this filename only if it matches your actual workbook)
 
 **Skills:** Row-Level Security, Data Access Control, Workbook Publishing
 
@@ -201,6 +213,7 @@ Created an initial healthcare analytics dashboard to explore healthcare metrics 
 ### 📅 Day 14 – Tableau Stories
 
 **Activities Completed**
+
 - Explored Stories in Tableau.
 - Learned how to create story points using worksheets and dashboards.
 - Arranged visualizations in a logical sequence.
@@ -215,7 +228,33 @@ Created an initial healthcare analytics dashboard to explore healthcare metrics 
 
 **Learning Outcome:** Learned how to combine visualizations into a sequence to guide viewers through data insights.
 
----
+### 📅 Day 15 – Tableau LOD (Level of Detail) Expressions
+
+**Topics Covered**
+
+- Learned about Level of Detail (LOD) expressions in Tableau.
+- Explored FIXED and EXCLUDE LOD expressions.
+- Used FIXED to calculate total sales across the entire dataset.
+- Calculated total sales at the Category level.
+- Used EXCLUDE to remove Category from the calculation.
+- Practiced excluding Sub-Category from calculations.
+- Understood how LOD expressions calculate values at different levels of granularity.
+
+**Activities Completed**
+
+- Created calculated fields using FIXED expressions.
+- Explored sales calculations at the Category level.
+- Practiced EXCLUDE expressions to remove dimensions from calculations.
+- Compared sales values at different levels of detail.
+- Explored how LOD expressions work with dimensions in visualizations.
+
+**Tools:** Tableau
+
+**Project File:** `day15-lodfunctions.twb`
+
+**Skills:** LOD Expressions, FIXED, EXCLUDE, Calculated Fields, Data Analysis
+
+**Learning Outcome:** Gained hands-on experience with Tableau LOD expressions and understood how FIXED and EXCLUDE help perform calculations at different levels of detail for flexible data analysis.
 
 ## 🛠️ Tools and Technologies
 
@@ -235,12 +274,15 @@ Created an initial healthcare analytics dashboard to explore healthcare metrics 
 - Filters, Bins, and Parameters
 - Row-Level Security Fundamentals
 - Data Storytelling
+- Level of Detail (LOD) Expressions
+- FIXED and EXCLUDE Calculations
 - Healthcare and HR Analytics
 
 ## 🚀 Future Learning Goals
 
-- Explore advanced Tableau calculations.
-- Practice dashboard actions and interactive filtering.
+- Explore INCLUDE LOD expressions.
+- Practice advanced Tableau calculations.
+- Explore dashboard actions and interactive filtering.
 - Improve dashboard design, formatting, and usability.
 - Strengthen data modeling and analytical techniques.
 - Build more real-world data analytics projects.
@@ -255,5 +297,7 @@ I will continue updating this repository as I learn new concepts and build more 
 Thank you for visiting my repository!
 
 **Skills:** Tableau | Tableau Prep | Data Visualization | Dashboard Development | Data Analytics
+
+#Tableau #DataAnalytics #DataVisualization #DashboardDevelopment #LearningJourney
 
 #Tableau #DataAnalytics #DataVisualization #DashboardDevelopment #LearningJourney
