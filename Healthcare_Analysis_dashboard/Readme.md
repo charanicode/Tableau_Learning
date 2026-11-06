@@ -70,11 +70,7 @@ Through this project, I gained practical experience in:
 - Applying filters to make dashboards interactive.
 - Converting raw data into meaningful visual insights.
 
-## 📁 Project Files
 
-- Tableau Workbook (.twb / .twbx)
-- Dashboard Screenshot
-- Healthcare Dataset (if sharing is permitted)
 
 ## 🚀 Conclusion
 
