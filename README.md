@@ -1,6 +1,6 @@
 # 📊 Tableau Learning Journey
 
-Welcome to my Tableau Learning Journey!
+Welcome to my **Tableau Learning Journey!** 🚀
 
 This repository documents my hands-on learning experience with Tableau, from installation and basic visualizations to data preparation, calculated fields, dashboard development, data security, storytelling, and Level of Detail (LOD) expressions.
 
@@ -15,13 +15,13 @@ Through daily practice and projects, I am building practical data visualization 
 - Understand row-level security and workbook publishing.
 - Present insights effectively using Tableau Stories.
 - Learn advanced Tableau calculations and LOD expressions.
+- Apply Tableau concepts to real-world datasets.
 
 ## 📚 Learning Progress
 
 ### 📅 Day 1 – Tableau Installation and Setup
 
 **Activities Completed**
-
 - Downloaded and installed Tableau.
 - Created a Tableau account.
 - Explored the Tableau interface and workspace.
@@ -32,7 +32,6 @@ Through daily practice and projects, I am building practical data visualization 
 ### 📅 Day 2 – Swiggy Data Dashboard
 
 **Activities Completed**
-
 - Connected Swiggy restaurant data to Tableau.
 - Explored restaurant, location, food category, price, and rating fields.
 - Created three worksheets.
@@ -47,19 +46,17 @@ Through daily practice and projects, I am building practical data visualization 
 ### 📅 Day 3 – Power BI vs Tableau: Terminology Comparison
 
 **Topics Covered**
-
 - Compared Power BI and Tableau terminology.
 - Explored Power Query and Tableau Prep.
 - Compared DAX with Tableau's calculation language.
 - Learned about calculated columns, measures, and calculated fields.
 - Compared joins, unions, relationships, worksheets, dashboards, and filters.
 
-**Key Learning:** Developed a foundational understanding of Tableau terminology by comparing it with familiar Power BI concepts.
+**Learning Outcome:** Developed a foundational understanding of Tableau terminology by comparing it with familiar Power BI concepts.
 
 ### 📅 Day 4 – Tableau Worksheet Development
 
 **Activities Completed**
-
 - Created worksheets to explore datasets.
 - Experimented with different charts and visualizations.
 - Prepared visualizations for dashboard development.
@@ -69,7 +66,6 @@ Through daily practice and projects, I am building practical data visualization 
 ### 📅 Day 5 – KPI Cards and Dashboard Development
 
 **Activities Completed**
-
 - Created multiple worksheets.
 - Practiced designing KPI cards to display key metrics.
 - Organized visualizations for dashboard integration.
@@ -82,22 +78,20 @@ Through daily practice and projects, I am building practical data visualization 
 **Dataset:** Hyderabad Food Orders Dataset
 
 **Activities Completed**
-
 - Created filters for Cuisine, Food Type, and Locality.
 - Enabled interactive filtering based on categories and locations.
 - Explored sales, orders, quantity, discounts, delivery status, and top cuisines.
 - Improved dashboard interactivity and data exploration.
 
-**Skills:** Tableau Filters, Interactive Dashboards, Data Visualization, Data Analysis
-
 **Project File:** `Day6-filteroptions_tableau.twb`
+
+**Skills:** Tableau Filters, Interactive Dashboards, Data Visualization, Data Analysis
 
 **Learning Outcome:** Practiced creating interactive dashboards that allow users to explore data dynamically.
 
 ### 📅 Day 7 – Tableau Prep Installation and Troubleshooting
 
 **Activities Completed**
-
 - Installed Tableau Prep.
 - Troubleshot and resolved installation issues.
 - Prepared the environment for data preparation and transformation.
@@ -109,7 +103,6 @@ Through daily practice and projects, I am building practical data visualization 
 ### 📅 Day 8 – Data Cleaning, Joins and Unions Using Tableau Prep
 
 **Activities Completed**
-
 - Renamed fields and changed data types.
 - Filtered unwanted rows.
 - Combined datasets using joins and unions.
@@ -124,7 +117,6 @@ Through daily practice and projects, I am building practical data visualization 
 ### 📅 Day 9 – Employee Attrition Dashboard
 
 **Activities Completed**
-
 - Created KPI cards to display key metrics.
 - Analyzed attrition by age and department.
 - Visualized attrition count by gender.
@@ -140,7 +132,6 @@ Through daily practice and projects, I am building practical data visualization 
 ### 📅 Day 10 – Creating Bins and Parameters
 
 **Activities Completed**
-
 - Created bins to group numerical data into intervals.
 - Explored parameters and their use in interactive analysis.
 - Practiced Tableau features for data exploration.
@@ -159,7 +150,6 @@ Through daily practice and projects, I am building practical data visualization 
 Created an initial healthcare analytics dashboard to explore healthcare metrics and practice Tableau data modeling and visualization.
 
 **Activities Completed**
-
 - Connected healthcare datasets to Tableau.
 - Created relationships between tables in Tableau's data model.
 - Explored patient count and key metrics.
@@ -179,7 +169,6 @@ Created an initial healthcare analytics dashboard to explore healthcare metrics 
 ### 📅 Day 12 – Tableau Calculated Fields
 
 **Activities Completed**
-
 - Explored different methods of creating calculated fields.
 - Practiced writing calculations using existing data.
 - Learned how calculated fields can derive new values.
@@ -196,15 +185,12 @@ Created an initial healthcare analytics dashboard to explore healthcare metrics 
 ### 📅 Day 13 – Tableau Row-Level Security
 
 **Topics Covered**
-
 - Explored the concept of Row-Level Security (RLS) in Tableau.
 - Learned how data visibility can be restricted based on user permissions.
 - Explored publishing a Tableau workbook.
 - Learned about secure access to dashboard data.
 
 **Tools:** Tableau
-
-**Project File:** `day13-rowlevelsecurity.twb` (use this filename only if it matches your actual workbook)
 
 **Skills:** Row-Level Security, Data Access Control, Workbook Publishing
 
@@ -213,7 +199,6 @@ Created an initial healthcare analytics dashboard to explore healthcare metrics 
 ### 📅 Day 14 – Tableau Stories
 
 **Activities Completed**
-
 - Explored Stories in Tableau.
 - Learned how to create story points using worksheets and dashboards.
 - Arranged visualizations in a logical sequence.
@@ -231,30 +216,135 @@ Created an initial healthcare analytics dashboard to explore healthcare metrics 
 ### 📅 Day 15 – Tableau LOD (Level of Detail) Expressions
 
 **Topics Covered**
-
 - Learned about Level of Detail (LOD) expressions in Tableau.
-- Explored FIXED and EXCLUDE LOD expressions.
-- Used FIXED to calculate total sales across the entire dataset.
-- Calculated total sales at the Category level.
-- Used EXCLUDE to remove Category from the calculation.
-- Practiced excluding Sub-Category from calculations.
-- Understood how LOD expressions calculate values at different levels of granularity.
-
-**Activities Completed**
-
-- Created calculated fields using FIXED expressions.
-- Explored sales calculations at the Category level.
-- Practiced EXCLUDE expressions to remove dimensions from calculations.
-- Compared sales values at different levels of detail.
-- Explored how LOD expressions work with dimensions in visualizations.
+- Explored FIXED and EXCLUDE expressions.
+- Calculated sales at different levels of detail.
+- Practiced including and excluding dimensions from calculations.
 
 **Tools:** Tableau
 
 **Project File:** `day15-lodfunctions.twb`
 
-**Skills:** LOD Expressions, FIXED, EXCLUDE, Calculated Fields, Data Analysis
+**Skills:** LOD Expressions, FIXED, EXCLUDE, Calculated Fields
 
-**Learning Outcome:** Gained hands-on experience with Tableau LOD expressions and understood how FIXED and EXCLUDE help perform calculations at different levels of detail for flexible data analysis.
+**Learning Outcome:** Understood how LOD expressions help perform calculations at different levels of granularity.
+
+### 📅 Day 16 – Tableau Functions
+
+**Dataset:** Adventure Works Dataset
+
+**Topics Covered**
+- Explored Aggregate Functions such as SUM(), AVG(), MIN(), MAX(), COUNT(), and COUNTD().
+- Practiced Logical Functions using IF, ELSEIF, and ELSE.
+- Learned Date Functions such as YEAR(), MONTH(), and DAY().
+- Explored String Functions such as UPPER(), LOWER(), LEN(), CONTAINS(), and ENDSWITH().
+
+**Activities Completed**
+- Calculated total profit and average discount.
+- Identified maximum quantity and minimum sales.
+- Counted unique countries and customer records.
+- Categorized sales into High, Medium, and Low.
+- Extracted date information and calculated date differences.
+- Practiced text manipulation using customer names.
+
+**Tools:** Tableau
+
+**Skills:** Aggregate Functions, Logical Functions, Date Functions, String Functions, Calculated Fields
+
+**Learning Outcome:** Gained practical experience using different Tableau functions to perform calculations, manipulate data, and derive meaningful insights.
+
+### 📅 Day 17 – INCLUDE LOD Expressions
+
+**Topics Covered**
+- Learned about INCLUDE LOD expressions.
+- Understood how INCLUDE adds an additional dimension to calculations.
+- Practiced calculations using dimensions not directly displayed in the visualization.
+
+**Practical Examples**
+- Calculated sales using Sub-Category.
+- Used Product Name to calculate product-level values and identify target achievement.
+
+**Tools:** Tableau
+
+**Skills:** INCLUDE LOD, FIXED, EXCLUDE, Calculated Fields, Data Analysis
+
+**Learning Outcome:** Understood how INCLUDE LOD expressions help perform calculations at a more detailed level before aggregation.
+
+---
+
+## 🏥 Final Tableau Project – Healthcare Data Analysis Dashboard
+
+### 📌 Project Overview
+
+Developed an interactive Healthcare Data Analysis Dashboard using Tableau to identify patient trends, insurance performance, medical expenses, and hospital stay patterns.
+
+This project represents the final milestone of my Tableau Learning Journey, where I applied the concepts and visualization techniques learned through hands-on practice.
+
+### 🎯 Project Objectives
+
+- Analyze patient distribution across different age groups.
+- Understand patient distribution across insurance providers.
+- Compare approved healthcare amounts across insurance companies.
+- Analyze approved amounts by medical condition.
+- Calculate and compare healthcare payment percentages.
+- Evaluate average hospital length of stay by medical condition.
+- Compare insurance payment performance against United Healthcare.
+
+### 🛠️ Tools & Technologies
+
+- **Tableau:** Dashboard development and data visualization.
+- **Microsoft Excel:** Dataset management and data preparation.
+- **Calculated Fields:** Custom metrics and analytical calculations.
+- **LOD Expressions:** Level of Detail calculations for comparative analysis.
+
+### 📊 Dashboard Components
+
+1. **KPI Overview:** Displays key healthcare performance indicators.
+2. **Patients Count by Age Group:** Analyzes patient distribution across age categories.
+3. **Patients by Insurance Company:** Compares patient counts across insurance providers.
+4. **Amount by Insurance Provider:** Analyzes approved amounts across insurance companies.
+5. **Amount by Medical Condition:** Compares approved healthcare amounts across medical conditions.
+6. **Average Length of Stay by Condition:** Examines the average number of hospital stay days for different medical conditions.
+7. **Comparison with United Healthcare:** Analyzes the percentage difference between total approved amounts and the United Healthcare benchmark.
+
+### 🧮 Calculated Fields & Tableau Concepts
+
+| Calculated Field | Purpose |
+|---|---|
+| Length of Stay | Calculates the difference between discharge and admission dates. |
+| Age Groups | Categorizes patients into different age groups. |
+| Out Of Pocket | Calculates the difference between bill amount and approved amount. |
+| Payment % | Calculates the ratio of approved amount to total bill amount. |
+| Approved_Amt_United_Hc | Identifies approved amounts associated with United Healthcare. |
+| united_healthcare_amt | Uses an EXCLUDE LOD expression to calculate the United Healthcare benchmark. |
+| diff_in_percentages | Calculates the percentage difference against the United Healthcare benchmark. |
+
+### 🎛️ Interactive Dashboard Features
+
+The dashboard includes interactive filters for:
+
+- Insurance Provider
+- Doctor Name
+- Gender
+- Medical Condition
+
+These filters allow users to explore healthcare metrics based on different categories and dimensions.
+
+### 📚 Key Learnings
+
+- Developed interactive Tableau dashboards.
+- Created calculated fields using Tableau formulas.
+- Applied LOD expressions for comparative analysis.
+- Designed KPI visualizations.
+- Analyzed healthcare expenditure and patient demographics.
+- Used filters to improve dashboard interactivity.
+- Converted raw data into meaningful visual insights.
+
+### 🚀 Project Outcome
+
+Successfully completed an interactive healthcare dashboard and applied Tableau concepts such as calculated fields, LOD expressions, KPI visualizations, and filters to generate meaningful insights.
+
+---
 
 ## 🛠️ Tools and Technologies
 
@@ -270,17 +360,18 @@ Created an initial healthcare analytics dashboard to explore healthcare metrics 
 - KPI Design
 - Data Preparation and Cleaning
 - Data Modeling and Relationships
-- Calculated Fields
+- Calculated Fields and Tableau Functions
 - Filters, Bins, and Parameters
 - Row-Level Security Fundamentals
 - Data Storytelling
 - Level of Detail (LOD) Expressions
-- FIXED and EXCLUDE Calculations
+- FIXED, INCLUDE, and EXCLUDE Calculations
 - Healthcare and HR Analytics
+- Interactive Dashboard Development
 
 ## 🚀 Future Learning Goals
 
-- Explore INCLUDE LOD expressions.
+- Explore Tableau Table Calculations.
 - Practice advanced Tableau calculations.
 - Explore dashboard actions and interactive filtering.
 - Improve dashboard design, formatting, and usability.
@@ -290,14 +381,17 @@ Created an initial healthcare analytics dashboard to explore healthcare metrics 
 
 ## 📈 My Learning Journey
 
-I believe consistent practice and hands-on projects are essential for developing strong data analytics skills. This repository reflects my ongoing progress as I explore Tableau features, document what I learn, and apply new concepts to practical datasets.
+I believe consistent practice and hands-on projects are essential for developing strong data analytics skills.
+
+This repository reflects my ongoing progress as I explore Tableau features, document what I learn, and apply new concepts to practical datasets.
+
+Completing my Healthcare Data Analysis Dashboard marks an important milestone in my Tableau Learning Journey.
 
 I will continue updating this repository as I learn new concepts and build more projects.
 
-Thank you for visiting my repository!
+**Thank you for visiting my repository!** ❤️
 
 **Skills:** Tableau | Tableau Prep | Data Visualization | Dashboard Development | Data Analytics
 
 #Tableau #DataAnalytics #DataVisualization #DashboardDevelopment #LearningJourney
-
 #Tableau #DataAnalytics #DataVisualization #DashboardDevelopment #LearningJourney
